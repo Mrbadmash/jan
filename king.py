@@ -94,10 +94,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://m.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://m.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
 
 def login():
 	os.system('clear')
@@ -191,7 +191,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;36;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;41mHack The World"	
-	print "\033[1;32;40m[2] \033[1;33;42mUpdate Aahil"																														
+	print "\033[1;32;40m[2] \033[1;33;42mUpdate Mrbadmash"																														
 	print "\033[1;32;40m[0] \033[1;33;43mLog out"
 	pilih()
 	
